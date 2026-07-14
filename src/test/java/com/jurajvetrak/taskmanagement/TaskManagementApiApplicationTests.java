@@ -1,12 +1,12 @@
 package com.jurajvetrak.taskmanagement;
 
+import com.jurajvetrak.taskmanagement.support.PostgresIntegrationTest;
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+@PostgresIntegrationTest
 class TaskManagementApiApplicationTests {
 
-    @Test
-    void contextLoads() {
-    }
+  @Test
+  void contextLoads() {
+  }
 }
